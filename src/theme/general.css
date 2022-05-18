@@ -1,0 +1,169 @@
+.loading-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 10px;
+  color: var(--ion-background-color)
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.card-value {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+#spend-button {
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.button-margin {
+  margin: 16px;
+}
+
+.container{
+  height: 100%;
+}
+
+.choice-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-button {
+  flex: 1 1 40%;
+  height: 8rem;
+}
+
+.category-icon {
+  display: block;
+}
+
+.category-button ion-icon {
+  font-size: 3rem;
+}
+
+.category-button .category-text {
+  margin-top: 5px;
+}
+
+.mr-s {
+  margin-right: 0.5em;
+}
+
+.margin-two {
+  margin: 2em;
+}
+
+
+#update-refresh-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#update-refresh-button:hover {
+  background-color: #555;
+}
+
+#update-refresh-button:active, #update-refresh-button:focus {
+  background-color: #444;
+}
+
+.flex-row, .flex-column {
+  display: flex;
+}
+
+.inline-flex-row {
+  display: inline-flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row, .inline-flex-row {
+  flex-direction: row;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.align-center {
+  align-items: center;
+} 
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.padding-ten-h {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p-l {
+  padding: 1em;
+}
+
+.margin-ten {
+  margin: 10px;
+}
+
+.margin-twenty {
+  margin: 20px;
+}
+
+.margin-b-five {
+  margin-bottom: 5px;
+}
+
+.margin-r-five {
+  margin-right: 5px;
+}
+
+.margin-b-ten {
+  margin-bottom: 10px;
+}
+
+.thumbnail {
+  border-radius: 100%;
+  background-color: var(--ion-color-primary);
+  color: white;
+  font-size: 1.3rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  font-size: 1.1rem;
+}
+
+ion-modal {
+  --width: 290px;
+  --height: 382px;
+  --border-radius: 8px;
+}
+
+ion-modal ion-datetime {
+  height: 382px;
+}

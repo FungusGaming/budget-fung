@@ -1,0 +1,7 @@
+{
+  "name": "budget-fung",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
