@@ -97,7 +97,7 @@ const AddExpenses: React.FC = () => {
   };
 
   const validateExpenses = () => {
-    if (price) {
+    if (!price) {
       toggleToast("Price need to be number")
       return false
     } else {
